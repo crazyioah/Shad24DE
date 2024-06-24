@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mewing Academy🤫🧏‍♀️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">TEAM</a></li>
+            <li><a href="course.html">PROMISES</a></li>
+            <li><a href="about.html">Sport Brackets</a></li>
+            <li><a href="contact.html">INTRAMURAL</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Policies</h1>
+    </section>
+
+    <!-- Policies -->
+    <section class="facilities">
+      <h1>Intramurals</h1>
+      <p>More Intramural activities</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/dodgeball.jpeg" />
+          <h3>Intramural dodgeball</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/brawlstars.jpeg" />
+          <h3>Intramural E-Sports</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/fortnite.jpeg" />
+          <h3>Fortnite on Winter Sports Day</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- events -->
+    <section class="facilities">
+      <h1>The Walk</h1>
+      <p>More interactions with BH/SMA girls</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/walk.jpg" />
+          <h3>Adding more activities to The Walk</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/multiplex.png" />
+          <h3>Opening up the multiplex</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/speedquestions.png" />
+          <h3>
+            Students can ask APPROPRIATE speed questions to develop positive
+            relationship
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Sport Brackets</h1>
+      <p>Win the free dress code</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/sportsbracket.webp" />
+          <h3>
+            Homeroom teacher leads their class to make predictions of different
+            games.
+          </h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/sportsbracket.png" />
+          <h3>
+            Events such as the NFL playoffs, Champions League, March Madness
+          </h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/freedresscode.jpeg" />
+          <h3>
+            The winners in each grade get free dress code or other rewards
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Student Resource Team</h1>
+      <p>Help students to achieve academic success</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/math.jpeg" />
+          <h3>More access to school materials</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/teamschannel.png" />
+          <h3>Microsoft Teams channel with worksheets for each subject</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/platinum.jpeg" />
+          <h3>New Honour Roll system</h3>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+      <h4>A.M.D.G</h4>
+      <p>Coded by Tianze Yin</p>
+    </section>
+
+    <!-- script -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

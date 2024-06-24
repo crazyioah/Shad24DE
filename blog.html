@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mewing Academy🤫🧏‍♀️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">TEAM</a></li>
+            <li><a href="course.html">PROMISES</a></li>
+            <li><a href="about.html">Sport Brackets</a></li>
+            <li><a href="contact.html">INTRAMURAL</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Trusted Team</h1>
+    </section>
+
+    <!-- content -->
+    <section class="blog-content">
+      <dic class="row">
+        <div class="blog-left">
+          <img src="images/manmewing.jpg" />
+          <h2>Student Council 2024-2025</h2>
+          <p>
+            Born in Wuhan, China. Our Vice-President Tianze Yin, sought out a
+            goal. A goal to infiltrate and spread his motherland’s traditions
+            and practices to North America. He decided the best way to do this
+            is to run for Student Council. He decided that he will need to
+            become the Vice-President to conceal his true goals, and will pull
+            the strings from the background, but he would first need someone
+            that shares the same ideals to be the President. Back in 2021-2022,
+            George Petroulakis was a prominent figure in the JUG room, with over
+            24 JUGs and still managing to stay in the school. Now, a reformed
+            nerd in 2024, having no JUGs and a 98% in Calculus, Tianze Yin
+            realized George was perfect for his plan.
+          </p>
+          <br />
+          <p>
+            Now the team needed support if they wanted a chance at winning, so
+            they decided to get other students to help their cause. Back in
+            2021, Yin began to be friend another fellow, Sihu Moon, and soon
+            their friendship bloomed through their love. Through Sihu’s
+            connections Tianze met other Chinese students such as Sean
+            Jenguksavat (the Vice-Chairman) and Tristain Dang (the Secretary).
+            Sihu later began to realize that his own companion, Tianze Yin, was
+            becoming too powerful and decided that the only way to keep him in
+            check was to run against him with his Canadian ally Mark Van
+            Caseele, so they formed MVP. Yin now betrayed, realized that the
+            only way to keep his competition in check is to recruit them so they
+            stay quiet. He made Sihu Moon the Chairman, and Mark Van Caseele the
+            First Lady, as Yin was upset about recruiting a Canadian ally in his
+            Council. Oh yeah, there’s also Luc St. Laurent but he ain’t that
+            important. Lastly, Adam Haleis, was offered the position of
+            Ambassador, he accepted it. But before joining, he wanted to make
+            sure his intentions were good enough for this school, and the truth
+            is Tianze Yin just really wanted to benefit the school while making
+            his nation proud. So he formed Mewing Academy, and joined with
+            Kallon and Funmi to make the school a better place.
+          </p>
+          <div class="comment-box">
+            <h3>Feed back</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="enter name" />
+              <input type="email" placeholder="enter email" />
+              <textarea rows="5" placeholder="Your comments"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                post comment
+              </button>
+            </form>
+          </div>
+        </div>
+        <dic class="blog-right">
+          <h3>Our TEAM</h3>
+          <div>
+            <span>George Petroulakis</span>
+            <span>President</span>
+          </div>
+          <div>
+            <span>Tianze Yin</span>
+            <span>Vice-President</span>
+          </div>
+          <div>
+            <span>Sihu Moon</span>
+            <span>Chairman</span>
+          </div>
+          <div>
+            <span>Sean Jenguksavat</span>
+            <span>Vice-Chairman</span>
+          </div>
+          <div>
+            <span>Tyrus Lee</span>
+            <span>CEO</span>
+          </div>
+          <div>
+            <span>Adam Haleis</span>
+            <span>Ambassator</span>
+          </div>
+          <div>
+            <span>Mark Van Caseele</span>
+            <span>First Lady</span>
+          </div>
+          <div>
+            <span>Tristian Dang</span>
+            <span>Secretary</span>
+          </div>
+          <div>
+            <span>Luc St.Laurent</span>
+            <span>Sports Ambassator</span>
+          </div>
+        </dic>
+      </dic>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>A.M.D.G</h4>
+      <p>Coded by Tianze Yin</p>
+    </section>
+
+    <!-- script -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

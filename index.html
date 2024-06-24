@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mewing Academy🤫🧏‍♀️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">TEAM</a></li>
+            <li><a href="course.html">PROMISES</a></li>
+            <li><a href="about.html">Sport Brackets</a></li>
+            <li><a href="contact.html">INTRAMURAL</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Mewing Academy🤫🧏‍♀️</h1>
+        <p>2024-2025 Student Council</p>
+        <a href="blog.html" class="hero-btn"
+          >cliclk here to learn more about us</a
+        >
+      </div>
+    </section>
+
+    <!-- team -->
+    <section class="campus">
+      <h1>The Team</h1>
+      <p>President and Vice-President</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/Tianze.jpeg" />
+          <div class="layer">
+            <h3>Tianze Yin</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/George.jpeg" />
+          <div class="layer">
+            <h3>George Petroulakis</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- what we can do -->
+    <section class="course">
+      <h1>Our Promises</h1>
+      <p>Let's make it happen</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>New Intramural activities</h3>
+          <p>Intramural dodgeball</p>
+          <p>Intramural E-sport</p>
+          <p>E-Sports on winter sports day</p>
+          <p>Brawl Stars, Clash Royal, Fortnite, FIFA and more...</p>
+          <li>
+            <a href="contact.html"
+              >Click here for intramural leaderboard and schedule on our studnet
+              council website</a
+            >
+          </li>
+        </div>
+        <div class="course-col">
+          <h3>The Walk</h3>
+          <p>More interaction between different schools</p>
+          <p>Open multiplex when students come back from the walk</p>
+          <p>Activities such as dodgeball will be played in the multiplex</p>
+          <p>
+            Speed Questions allow students to ask appropriate questions to
+            develop positive relationship
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Student Resource Team</h3>
+          <p>Students can have more access to school resources</p>
+          <p>Mircrosoft Teams channel with worksheet for every class</p>
+          <p>New Platinum honour roll and new honour roll system</p>
+          <p>
+            Platinum honour roll with >95%, Gold Honour 85%-95%, Silver Honour
+            75%-85%
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- events -->
+    <section class="facilities">
+      <h1>The Future</h1>
+      <p>Let's build 2024-2025 school year together</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/thewalkmain.jpg" />
+          <h3>Community</h3>
+          <p>Let's build a positive community with SMA/BH</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/homecoming.jpg" />
+          <h3>Brotherhood</h3>
+          <p>Men for others</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/wintersportsday.JPG" />
+          <h3>Amusement</h3>
+          <p>Let's have fun together</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+      <h1>Why Mewing Academy 🤫🧏‍♀️</h1>
+      <p>Mew With us</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/mew1.JPG" />
+          <h3>Nifemi(left),Funmi(Right)</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/mew3.png" />
+          <h3>Masyn</h3>
+        </div>
+        <div class="facilities-col">
+          <img src="images/mew2.JPG" />
+          <h3>Keon</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="cta">
+      <h1>
+        Vote for Mewing Academy 🤫🧏‍♀️ and <br />Make 2024-2025 School Year Count!
+      </h1>
+      <a href="https://www.instagram.com/asdfjh888/" class="hero-btn"
+        >Contact Us</a
+      >
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>A.M.D.G</h4>
+      <p>Coded by Tianze Yin</p>
+    </section>
+
+    <!-- script -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

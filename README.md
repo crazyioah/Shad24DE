@@ -1,1 +1,1 @@
-# mewing-academy
+# Shad 24 Design Entrepreneurship
